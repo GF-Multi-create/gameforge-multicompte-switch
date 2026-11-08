@@ -31,13 +31,20 @@ Le bouton **Vérifier les mises à jour** (en haut de la fenêtre) télécharge 
 
 ### Choix du jeu
 
-Au démarrage, tu choisis ton jeu. NosTale est disponible, les autres jeux GameForge arrivent plus tard.
+Au démarrage, tu choisis ton jeu. NosTale est disponible, les autres jeux GameForge sont en préparation. Tu peux changer de jeu à tout moment avec le sélecteur en haut à gauche.
 
 ![Choix du jeu](docs/images/00-choix-du-jeu.png)
 
+### Le menu en un coup d'œil
+
+- **Menu de gauche** : Accueil, Comptes, Quêtes, Minuteurs et Raccourcis. **Options** et **Diagnostic** sont rangés en bas.
+- **Comptes ouverts** : sous le menu, tes clients NosTale avec leur classe, leur numéro et leur couronne pour le chef. Un clic sur un compte passe dessus. Une pastille signale celui qui réclame ton attention ou qui ne répond plus.
+- **Barre du haut** : l'état des raccourcis (*En marche* / *En pause*, un clic pour basculer), le bouton **Soutenir**, la mise à jour et le gros bouton **Suivant**.
+- **Bas du menu** : la version, et un bouton **Admin** si le Switch doit être relancé en administrateur. Le **Diagnostic** passe en rouge quand les raccourcis ne sont pas installés.
+
 ### Accueil
 
-Le point de départ : les gros boutons **Compte suivant**, **Précédent** et **Chef**, les actions rapides (détection, rangement des fenêtres, aperçus, overlay, lanceur GameForge, barre flottante) et tes **favoris**, c'est-à-dire des ensembles de comptes que tu retrouves en un clic.
+Le point de départ : les gros boutons **Compte suivant**, **Précédent** et **Chef**, les actions rapides (détection, rangement des fenêtres, aperçus, overlay, lanceur GameForge, barre flottante) et tes **favoris**, c'est-à-dire des ensembles de comptes (noms, classes, équipes, disposition) que tu retrouves en un clic.
 
 ![Accueil](docs/images/01-accueil.png)
 
@@ -105,7 +112,7 @@ Une petite barre posée au-dessus du jeu : tes comptes avec leur classe, l'équi
 
 ![Barre flottante](docs/images/10-barre-flottante.png)
 
-Les réglages de la barre :
+Ses réglages se trouvent dans **Options**, section *Barre flottante* :
 
 ![Réglages de la barre](docs/images/06-barre.png)
 
@@ -117,20 +124,16 @@ Une fenêtre transparente, au-dessus du jeu, avec tes quêtes, tes guides et le 
 
 ### Options
 
-- Raccourcis actifs **seulement quand un jeu est devant** (tes touches restent normales dans Discord, le navigateur…).
-- **Bulles et alertes** : compte qui réclame l'attention, client qui ne répond plus, petit son.
-- Transparence de l'overlay et de la barre.
-- **Toujours lancer en administrateur** et **Démarrer avec Windows**.
-- Langue de l'interface : français, anglais, espagnol ou allemand.
-- Icônes personnalisées et **sauvegarde de la configuration** (export et import).
+Les réglages sont rangés par sections, avec des boutons en haut de la page pour aller directement à celle qu'on cherche.
+
+- **Général** : langue de l'interface (français, anglais, espagnol ou allemand), **Démarrer avec Windows**, **Toujours lancer en administrateur**, et le comportement de la fenêtre quand on la ferme (le Switch reste actif dans la zone de notification).
+- **Raccourcis et alertes** : raccourcis actifs **seulement quand un jeu est devant** (tes touches restent normales dans Discord, le navigateur…), bulles quand un compte réclame l'attention ou qu'un client ne répond plus, petit son.
+- **Barre flottante** et **Overlay** : affichage, barre verticale, transparence, estompage de l'overlay quand la souris n'est pas dessus.
+- **Fenêtres du jeu et lanceur** : nom du personnage dans le titre des fenêtres, chemin du lanceur GameForge, noms des programmes du jeu.
+- **Économie de ressources** : couper le son ou baisser la priorité des comptes inactifs (désactivé par défaut).
+- **Données et sauvegarde** : icônes personnalisées et **sauvegarde de la configuration** (export et import).
 
 ![Options](docs/images/07-options.png)
-
-### Jeux
-
-La liste des jeux pris en charge. NosTale est disponible, les autres sont en préparation.
-
-![Jeux](docs/images/08-jeux.png)
 
 ### Diagnostic
 

@@ -1,8 +1,10 @@
 # Velkor Launcher
 
-**Tous tes comptes NosTale, une seule touche.**
+**Tous tes comptes GameForge, une seule touche.**
 
-Un petit logiciel gratuit pour Windows qui te permet de passer d'un client NosTale à l'autre avec un raccourci (par défaut la touche `²`), de garder une barre flottante discrète au-dessus du jeu et de retrouver chaque personnage d'un coup d'œil.
+*Pensé pour tous les jeux GameForge. Aujourd'hui, NosTale est le premier jeu disponible ; les autres arrivent.*
+
+Un petit logiciel gratuit pour Windows qui te permet de passer d'un client de jeu GameForge à l'autre avec un raccourci (par défaut la touche `²`), de garder une barre flottante discrète au-dessus du jeu et de retrouver chaque personnage d'un coup d'œil.
 
 ![Accueil](docs/images/01-accueil.png)
 
@@ -32,7 +34,7 @@ Le logiciel s'appelle désormais **Velkor Launcher** (ancien nom : GameForge Mul
 ## Télécharger
 
 1. Ouvre la page des [**Releases**](../../releases/latest).
-2. Télécharge `VelkorLauncher.exe`.
+2. Télécharge `Velkor.Launcher.exe` (GitHub remplace l'espace par un point ; tu peux le renommer en « Velkor Launcher.exe »).
 3. Lance-le : il n'y a **rien à installer**, c'est un seul fichier.
 
 - **Windows 10 ou 11** (64 bits).

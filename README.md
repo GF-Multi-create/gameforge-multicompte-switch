@@ -10,22 +10,16 @@ Un petit logiciel gratuit pour Windows qui te permet de passer d'un client de je
 
 > **Ce que le logiciel ne fait jamais** : il ne joue pas à ta place. Aucun clic et aucune touche ne sont envoyés au jeu, il ne lit pas la mémoire du jeu et n'intercepte aucun paquet. Il se contente de gérer **tes fenêtres** (les mettre devant, les ranger) et d'afficher des informations. Il ne te demande **jamais** tes identifiants GameForge.
 
-**Sommaire** : [Nouveautés](#nouveautés-de-la-version-13) · [Télécharger](#télécharger) · [Visite guidée](#visite-guidée) · [Niveaux et profil Discord](#niveaux-et-profil-discord-facultatif) · [Communauté](#communauté) · [Questions fréquentes](#questions-fréquentes)
+**Sommaire** : [Nouveautés](#nouveautés-de-la-version-14) · [Télécharger](#télécharger) · [Visite guidée](#visite-guidée) · [Niveaux et profil Discord](#niveaux-et-profil-discord-facultatif) · [Communauté](#communauté) · [Questions fréquentes](#questions-fréquentes)
 
-## Nouveautés de la version 1.3
+## Nouveautés de la version 1.4
 
-Le logiciel s'appelle désormais **Velkor Launcher** (ancien nom : GameForge Multi-compte Switch), avec un **nouveau logo**. Tes réglages, tes favoris et le démarrage avec Windows sont conservés.
+- 📖 **Fiche du jeu** : un nouvel onglet propre à chaque jeu, avec la règle du multi-compte, les classes, les objectifs du jour à cocher, les liens officiels et les sources. Chaque fiche ne parle que de son jeu.
+- 🎮 **Les jeux du lanceur GameForge** : Velkor se concentre sur les jeux du client GameForge (NosTale, 4Story, AION, AION Classic, Metin2 et Runes of Magic). Les jeux dans le navigateur (OGame, Gladiatus) sont retirés.
+- 📰 **Actualités par jeu** : chaque jeu affiche ses propres actualités officielles sur l'Accueil.
+- 📜 **Licence « tous droits réservés »** : le code reste la propriété de Velkaïr x Petronas™ (voir [Licence](#licence)).
 
-- 🌟 **Écran de démarrage animé** : les logos des jeux tournent autour du logo, une barre va de 0 à 100 %, Velkor cherche une mise à jour, l'installe tout seul (signature vérifiée) et se relance. Désactivable dans les Options.
-- 📸 **Bilan en image** de ta journée ou de ta semaine, à copier ou enregistrer pour Discord, et un **défi de la semaine**.
-- 🔔 **Rappels** à heure fixe et **minuteurs rapides** en un clic, qui survivent à un redémarrage.
-- 🌙 **Routine** : une suite d'étapes « compte + tâche ». Un clic sur *Suivant* te place sur le bon compte, aussi depuis l'overlay.
-- 📒 **Carnet de farm** avec un graphique des 7 derniers jours.
-- 💾 **Sauvegardes automatiques** chaque jour, restauration en un clic.
-- 🧭 **Assistant de démarrage** en 3 étapes : lanceur, comptes, premier favori.
-- 🗔 **Overlay** : mode compact, taille du texte réglable, recherche globale (`Ctrl + F`) et touche `Entrée` pour cocher la quête affichée et passer à la suivante.
-- 🎨 **Huit thèmes** dont *Noël* et *Automne* (changement automatique selon la saison, facultatif).
-- 🛠️ **Ouverture plus fiable** : la fenêtre réessaie toute seule si Windows la refuse au premier essai.
+Et toujours, depuis la version 1.3 : un **écran de démarrage animé** avec mise à jour automatique signée, le **bilan en image**, les **rappels** et **minuteurs rapides**, la **routine**, le **carnet de farm**, les **sauvegardes automatiques**, l'**assistant de démarrage**, l'**overlay compact** et **huit thèmes** dont *Noël* et *Automne*.
 
 ![Écran de démarrage](docs/images/26-ecran-de-demarrage.png)
 
@@ -53,13 +47,13 @@ Le bouton **Vérifier les mises à jour** (en haut de la fenêtre) télécharge 
 
 ### Choix du jeu
 
-Au démarrage, tu choisis ton jeu. **NosTale** est disponible ; les autres jeux GameForge (OGame, 4Story, AION, AION Classic, Gladiatus, Metin2, Runes of Magic) sont affichés en maintenance, en attendant leur tour. Tu peux changer de jeu à tout moment avec le sélecteur en haut à gauche.
+Au démarrage, tu choisis ton jeu. **NosTale** est disponible ; les autres jeux du lanceur GameForge (4Story, AION, AION Classic, Metin2, Runes of Magic) sont affichés en maintenance, en attendant leur tour. Tu peux changer de jeu à tout moment avec le sélecteur en haut à gauche.
 
 ![Choix du jeu](docs/images/00-choix-du-jeu.png)
 
 ### L'interface en un coup d'œil
 
-- **Menu de gauche** : Accueil, Comptes, À faire, Quêtes, Minuteurs, Outils et Raccourcis. **Options** et **Diagnostic** sont rangés en bas, avec le numéro de version.
+- **Menu de gauche** : Accueil, Comptes, À faire, Quêtes, Minuteurs, Outils, Fiche du jeu et Raccourcis. **Options** et **Diagnostic** sont rangés en bas, avec le numéro de version.
 - **Comptes ouverts** : sous le menu, tes clients NosTale avec leur classe, leur numéro et leur couronne pour le chef. Un clic sur un compte passe dessus. Une pastille signale celui qui réclame ton attention ou qui ne répond plus.
 - **Recherche rapide** : la bulle ronde avec une loupe, en bas à droite, ouvre une recherche (la combinaison Ctrl + K fait la même chose). Tape un mot : un compte, une tâche, un réglage, un outil, un favori, une disposition ou une action.
 - **Barre du haut** :
@@ -87,6 +81,10 @@ Quand aucun client n'est ouvert, l'Accueil t'invite à les lancer : ils apparaî
 Plus bas, **Évènements en cours** : les actualités, évènements et notes de mise à jour du jeu, avec leurs images officielles. Un clic ouvre l'article dans ton navigateur. Les actualités sont simplement lues sur le site de GameForge, rien n'est envoyé.
 
 ![Évènements en cours](docs/images/01c-evenements-en-cours.png)
+
+### Fiche du jeu
+
+Un onglet par jeu, rédigé à partir des sources du jeu lui-même (site officiel, wiki, forums) : la **règle du multi-compte**, les **classes ou races**, des sections propres au jeu (progression, économie, événements…), des **objectifs du jour** à cocher compte par compte, des **liens officiels** et les **sources** utilisées. Rien n'est lu dans le jeu. Pour les jeux encore en maintenance, la fiche s'affichera dès leur ouverture.
 
 ### Comptes
 
@@ -306,6 +304,14 @@ Vérifie que Velkor et le jeu ont les mêmes droits (tous les deux en administra
 
 **Comment je demande de l'aide ou je signale un bug ?**
 Sur le [serveur Discord](https://discord.gg/esKBUCrK22), dans les salons d'aide et de bugs. Colle le rapport copié depuis l'onglet **Diagnostic** pour aller plus vite.
+
+---
+
+## Licence
+
+**© Velkaïr x Petronas™ — tous droits réservés.**
+
+Velkor Launcher est gratuit à l'usage, mais son code, son nom, son logo et ses textes ne sont pas libres. Sans accord écrit du créateur, il est interdit de **copier, modifier, renommer, redistribuer, republier ou vendre** tout ou partie du logiciel, de son code ou de ses éléments, ni de le présenter comme son propre travail. Le texte complet est dans le fichier [LICENSE](LICENSE). Pour toute demande : Discord **velkair**.
 
 ---
 
